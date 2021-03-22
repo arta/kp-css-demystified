@@ -4,7 +4,7 @@
 *,
 *::before,
 *::after {
-  /* outline: 1px dotted hotpink; */
+  outline: 1px dotted hotpink;
   box-sizing: border-box;
 }
 
@@ -81,9 +81,7 @@ body {
   margin: 0;
 }
 
-.plan--light .p-plan-price {
-  color: #00a1ab;
-}
+.plan--light .p-plan-price { color: #00a1ab; }
 
 .p-plan-description {
   line-height: 1.5;
@@ -136,6 +134,20 @@ body {
 /* ##### */
 /* TEAMS */
 /* ----- */
+.h3-name {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.p-bio-brief { line-height: 1.5; }
+
+.p-position {
+  font-size: .875rem;
+  margin-top: 0;
+}
+
+/* ----- */
+
 .team-member {
   align-items: center;
   background: #abc;
