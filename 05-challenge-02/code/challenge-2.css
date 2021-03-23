@@ -79,8 +79,8 @@ body {
   padding: calc(0.625rem - 2px) calc(1.5rem - 2px);
 }
 .btn-outline:hover {
-  border-color: var(--clr-btn-outl-border-clr-hov, var(--clr-primary-400));
   background: var(--clr-btn-outl-bg-hov, var(--clr-primary-400));
+  border-color: var(--clr-btn-outl-border-clr-hov, var(--clr-primary-400));
   color: var(--clr-btn-outl-clr-hov, var(--clr-neutral-100));
 }
 
