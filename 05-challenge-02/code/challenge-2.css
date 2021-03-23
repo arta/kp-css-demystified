@@ -54,31 +54,31 @@ body {
   text-transform: uppercase;
 }
 
-.btn-primary {
+.btn--primary {
   background: var(--clr-btn-prim-bg, var(--clr-primary-400));
   color: var(--clr-btn-prim-clr, var(--clr-neutral-100));
 }
-.btn-primary:hover {
+.btn--primary:hover {
   background: var(--clr-primary-300);
   color: var(--clr-neutral-100);
 }
 
-.btn-secondary {
+.btn--secondary {
   background: var(--clr-btn-sec-bg, var(--clr-neutral-400));
   color: var(--clr-btn-sec-clr, var(--clr-neutral-100));
 }
-.btn-secondary:hover {
+.btn--secondary:hover {
   background: var(--clr-btn-sec-bg-hov, var(--clr-primary-500));
   color: var(--clr-neutral-100);
 }
 
-.btn-outline {
+.btn--outline {
   border: 2px solid var(--clr-btn-outl-border-clr, var(--clr-primary-400));
   color: var(--clr-btn-outl-clr, var(--clr-primary-400));
   /* remove the border size from the padding for equal sizing */
   padding: calc(0.625rem - 2px) calc(1.5rem - 2px);
 }
-.btn-outline:hover {
+.btn--outline:hover {
   background: var(--clr-btn-outl-bg-hov, var(--clr-primary-400));
   border-color: var(--clr-btn-outl-border-clr-hov, var(--clr-primary-400));
   color: var(--clr-btn-outl-clr-hov, var(--clr-neutral-100));
@@ -101,17 +101,19 @@ body {
 /* UTILS */
 /* ----- */
 
-.bg-light {
+/* Mdifier classes setting up locally scoped custom attributes */
+
+.cta--bg-light {
   --clr-cta-bg:   var(--clr-neutral-100);
   --clr-cta-clr:  var(--clr-primary-500);
 }
 
-.bg-neutral {
+.cta--bg-neutral {
   --clr-cta-bg:   var(--clr-neutral-200);
   --clr-cta-clr:  var(--clr-primary-500);
 }
 
-.bg-accent {
+.cta--bg-accent {
   --clr-cta-bg:   var(--clr-primary-400);
   --clr-cta-clr:  var(--clr-neutral-100);
 
@@ -123,7 +125,7 @@ body {
   --clr-btn-outl-clr-hov:     var(--clr-primary-400);
 }
 
-.bg-dark {
+.cta--bg-dark {
   --clr-cta-bg:   var(--clr-primary-500);
   --clr-cta-clr:  var(--clr-neutral-100);
 
