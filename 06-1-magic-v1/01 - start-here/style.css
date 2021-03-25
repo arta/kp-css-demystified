@@ -63,8 +63,8 @@ h1 {
 
 .card-hero {
   background: white;
-  max-width: 96%;
+  max-width: 800px;
   padding: 3em;
   text-align: center;
-  width: 800px;
+  width: 94%;
 }
