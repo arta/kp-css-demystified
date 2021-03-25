@@ -1,3 +1,17 @@
-/* Font used
-font-family: 'PT Sans', sans-serif; 
-*/
+/* ###### */
+/* GLOBAL */
+/* ------ */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: 1px dotted hotpink;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
