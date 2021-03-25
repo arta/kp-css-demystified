@@ -11,7 +11,20 @@
 
 body {
   font-family: 'PT Sans', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+
+
+/* ########## */
+/* TYPOGRAPHY */
+/* ---------- */
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: normal;
+}
+
+.a-btn-hero { font-size: 1.125rem; }
