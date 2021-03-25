@@ -9,7 +9,14 @@
   outline: 1px dotted hotpink;
 }
 
+:root {
+  --clr-neutral-dark: #171717;
+  --clr-neutral-white: #fff;
+  --clr-accent: #59E89C;
+}
+
 body {
+  color: var(--clr-neutral-dark);
   font-family: 'PT Sans', sans-serif;
   font-size: 1.25rem;
   line-height: 1.6;
