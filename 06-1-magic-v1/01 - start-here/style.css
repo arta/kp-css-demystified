@@ -24,11 +24,6 @@ body {
   padding: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
 
 /* ########## */
 /* TYPOGRAPHY */
@@ -43,3 +38,33 @@ h1 {
 }
 
 .a-btn-hero { font-size: 1.125rem; }
+
+
+/* ###### */
+/* LAYOUT */
+/* ------ */
+
+/* Declarations ordered functionally (vs. alphabetically) */
+/* to emphasize the actual meaning */
+.hero {
+  height: 100vh;
+
+  background-image: url(./assets/hero.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: grid;
+  place-items: center;
+  /* Same as: */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.card-hero {
+  background: white;
+  max-width: 96%;
+  padding: 3em;
+  text-align: center;
+  width: 800px;
+}
