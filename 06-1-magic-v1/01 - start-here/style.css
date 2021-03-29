@@ -47,21 +47,15 @@ h1 {
 /* Declarations ordered functionally (vs. alphabetically) */
 /* to emphasize the actual meaning */
 .hero {
-  display: grid;
-  place-items: center;
-  /* Same as: */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-
   background-image: url(./assets/hero.jpg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  padding: 10em 0;
 }
 
 .card-hero {
   background: white;
+  margin: 0 auto;
   max-width: 800px;
   padding: 3em;
   text-align: center;
