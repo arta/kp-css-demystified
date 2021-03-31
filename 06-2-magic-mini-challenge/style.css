@@ -1,5 +1,5 @@
 /* Font used
-font-family: 'PT Sans', sans-serif; 
+font-family: 'PT Sans', sans-serif;
 */
 
 /* reset */
@@ -34,6 +34,8 @@ body {
 h1 {
   font-weight: 400;
 }
+
+.btn { display: inline-block; }
 
 .hero {
   background-image: url(assets/hero.jpg);
